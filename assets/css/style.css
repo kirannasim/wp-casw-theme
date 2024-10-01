@@ -1,0 +1,514 @@
+.page-inner {
+  background: #FFF;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  padding: 0;
+  margin-bottom: 50px;
+}
+@media (max-width: 1000px) {
+  .page-inner {
+    margin-bottom: 30px;
+  }
+}
+
+/* Single Eventstylesheet */
+#events-page .hero img {
+  width: 100%;
+  height: auto;
+}
+#events-page .events {
+  padding: 40px 80px;
+}
+#events-page .events .event {
+  border-bottom: 1px solid #D2D2D2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+@media screen and (max-width: 767px) {
+  #events-page .events .event {
+    flex-direction: column;
+  }
+}
+#events-page .events .event .event-details {
+  max-width: 65%;
+}
+@media screen and (max-width: 767px) {
+  #events-page .events .event .event-details {
+    max-width: initial;
+  }
+}
+#events-page .events .event .event-details .event-title {
+  font-family: "Arial";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+#events-page .events .event .event-details .event-title a {
+  color: #000;
+}
+#events-page .events .event .event-details .event-content {
+  text-align: left;
+}
+
+.event #page-title h1 {
+  color: #000;
+  font-family: "Georgia";
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  text-align: center;
+  padding: 0 20px;
+}
+@media (max-width: 1000px) {
+  .event #page-title h1 {
+    margin-top: 50px;
+  }
+}
+.event #page-title span {
+  color: #4D8DC5;
+  font-weight: bold;
+  margin: 0 10px;
+  vertical-align: text-top;
+}
+.event .page-inner {
+  padding: 50px;
+}
+.event .wp-post-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+.event .event-content {
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+}
+.event .event-content p {
+  margin: 0 0 30px;
+}
+.event .agendas-wrap {
+  padding: 100px 8%;
+}
+@media (max-width: 1000px) {
+  .event .agendas-wrap {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.event .tabs {
+  border-bottom: 2px solid #4D8DC5;
+  padding-left: 0;
+  text-align: right;
+  margin-bottom: 0;
+}
+.event .tabs li {
+  display: inline-block;
+  font-weight: 700;
+}
+.event .tabs li:after {
+  content: "|";
+  font-weight: bold;
+}
+.event .tabs li a {
+  display: inline-block;
+  padding: 15px 10px;
+  font-family: "Helvetica";
+  font-weight: bold;
+  color: inherit;
+  font-size: 20px;
+}
+.event .tabs li a.active, .event .tabs li a:hover {
+  color: #4C8DC5;
+}
+.event .tabs li:last-child a {
+  padding-right: 0;
+}
+.event .tabs li:last-child:after {
+  display: none;
+}
+.event .tab-pane {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: opacity 0.3s;
+}
+.event .tab-pane.active {
+  opacity: 1;
+  height: auto;
+  overflow: visible;
+}
+.event .date {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: -40px;
+}
+.event .agendas {
+  padding: 70px 0 0;
+  position: relative;
+}
+
+.agenda-wrap {
+  display: flex;
+  position: relative;
+}
+@media (max-width: 768px) {
+  .agenda-wrap {
+    display: block;
+    padding-left: 40px;
+  }
+}
+.agenda-wrap:before {
+  content: "";
+  display: block;
+  border-left: 3px dashed #424242;
+  position: absolute;
+  left: 225px;
+  top: 0;
+  bottom: 0;
+}
+@media (max-width: 768px) {
+  .agenda-wrap:before {
+    left: 10px;
+    bottom: -25px;
+  }
+}
+.agenda-wrap:last-child:before {
+  display: none;
+}
+.agenda-wrap .times {
+  flex: 0 0 225px;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+}
+.agenda-wrap .times:after {
+  content: "";
+  position: absolute;
+  left: 214px;
+  top: -2px;
+  width: 25px;
+  height: 25px;
+  background: #4D8DC5;
+  border-radius: 50%;
+}
+@media (max-width: 768px) {
+  .agenda-wrap .times:after {
+    left: -41px;
+  }
+}
+.agenda-wrap .agenda {
+  flex: 1 1 auto;
+  padding-left: 40px;
+}
+@media (max-width: 768px) {
+  .agenda-wrap .agenda {
+    padding-left: 0;
+  }
+}
+.agenda-wrap .free-form {
+  padding: 0 40px;
+  margin-bottom: 60px;
+  margin: 25px 0;
+}
+.agenda-wrap .free-form h6 {
+  font-size: 20px;
+  margin: 0 0 20px;
+}
+.agenda-wrap .session {
+  background: #E1F1FF;
+  padding: 35px 40px;
+  margin: 25px 0;
+}
+.agenda-wrap .session h3 {
+  margin-top: 0;
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.agenda-wrap .session h3 a,
+.agenda-wrap .session h4 a {
+  font-family: "Helvetica";
+  color: inherit;
+}
+.agenda-wrap .session h3 a:hover,
+.agenda-wrap .session h4 a:hover {
+  color: #4C8DC5;
+}
+.agenda-wrap .session .speakers {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-bottom: 15px;
+}
+.agenda-wrap .session .speakers h3,
+.agenda-wrap .session .speakers .speaker {
+  flex: 0 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.agenda-wrap .session .speakers .speaker {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+@media (max-width: 1100px) {
+  .agenda-wrap .session .speakers .speaker {
+    width: 100%;
+  }
+}
+.agenda-wrap .session .speakers .speaker .avatar {
+  flex: 0 0 80px;
+  margin-right: 15px;
+}
+.agenda-wrap .session .speakers .speaker img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 0;
+}
+.agenda-wrap .session .speakers .speaker h4 {
+  font-size: 16px;
+  margin: 0 0 5px;
+}
+
+/* Single Session stylesheet */
+.session #page-title h1 {
+  color: #000;
+  font-family: "Georgia";
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  text-align: center;
+  padding: 0 20px;
+}
+@media (max-width: 1000px) {
+  .session #page-title h1 {
+    margin-top: 50px;
+  }
+}
+.session #page-title h1 span {
+  color: #4D8DC5;
+  font-weight: bold;
+  margin: 0 10px;
+  vertical-align: text-top;
+}
+.session .session-details {
+  font-family: "Helvetica";
+  font-size: 28px;
+  line-height: 36px;
+  padding: 60px 60px 80px;
+}
+.session .session-details .session-meta {
+  font-weight: 700;
+}
+.session .session-details .session-meta .gap {
+  color: #4D8DC5;
+  padding: 0 8px;
+  line-height: 1;
+  font-weight: bold;
+  vertical-align: text-top;
+}
+.session .session-content {
+  margin-top: 40px;
+}
+.session .button {
+  margin-top: 20px;
+}
+.session .speakers {
+  background-color: #E1F1FF;
+}
+.session .speakers h2 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 34px;
+  margin: 0 70px;
+  padding-top: 70px;
+}
+
+/* Single Speaker stylesheet */
+.speaker .speaker-details {
+  padding: 80px 30px;
+}
+.speakers .speaker .speaker-details {
+  padding: 50px 30px;
+}
+.speaker .upcoming-events {
+  padding: 50px 65px;
+}
+@media (max-width: 1000px) {
+  .speaker .upcoming-events {
+    padding: 0 30px 20px;
+  }
+}
+.speaker .upcoming-events h2 {
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 34px;
+  margin-bottom: 70px;
+}
+.speaker .sessions .session {
+  margin-bottom: 80px;
+}
+.speaker .sessions .session .session-title {
+  font-family: "Arial";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.speaker .sessions .session .session-title a {
+  color: inherit;
+}
+.speaker .sessions .session .session-title a:hover {
+  color: #4C8DC5;
+}
+.speaker .sessions .session .session-meta,
+.speaker .sessions .session .session-content {
+  font-family: "Helvetica";
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 20px;
+}
+.speaker .sessions .session .session-meta {
+  margin-top: 10px;
+}
+.speaker .sessions .session .session-meta .gap {
+  color: #4D8DC5;
+  padding: 0 8px;
+  line-height: 1;
+  font-weight: bold;
+  vertical-align: text-top;
+}
+.speaker .sessions .session .button {
+  margin-top: 20px;
+}
+
+@media (min-width: 1001px) {
+  .speaker-details {
+    display: flex;
+  }
+}
+.speaker-details .avatar {
+  margin: 0 0 50px 40px;
+  flex: 0 0 auto;
+  text-align: center;
+}
+.speaker-details .avatar img {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+}
+.speaker-details .socials {
+  list-style: none;
+  text-align: center;
+  margin: 18px 0 0 0;
+  padding: 0;
+}
+.speaker-details .socials li {
+  display: inline-block;
+  padding: 0 3px;
+}
+.speaker-details .socials li a {
+  background-size: 100%;
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+.speaker-details .socials .speaker-twitter {
+  background-image: url(../images/speaker-twitter.svg);
+}
+.speaker-details .socials .speaker-linkedin {
+  background-image: url(../images/speaker-linkedin.svg);
+}
+.speaker-details .socials .speaker-website {
+  background-image: url(../images/speaker-website.svg);
+}
+.speaker-details .info {
+  font-family: "Helvetica";
+  font-size: 28px;
+  line-height: 1.2857;
+  margin-left: 40px;
+}
+@media (max-width: 1000px) {
+  .speaker-details .info {
+    margin-left: 0;
+  }
+}
+.speakers .speaker-details .info {
+  font-size: 24px;
+}
+.speaker-details .info h3 {
+  font-family: "Georgia";
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 1.1;
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+.speakers .speaker-details .info h3 {
+  font-size: 24px;
+  line-height: 1.3;
+  margin-bottom: 8px;
+}
+.speakers .speaker-details .info h3 a {
+  font-family: "Helvetica";
+  font-weight: bold;
+  color: inherit;
+}
+.speakers .speaker-details .info h3 a:hover {
+  color: #4C8DC5;
+}
+.speaker-details .info .metas span {
+  font-weight: 700;
+}
+.speaker-details .info .metas span.gap {
+  color: #4D8DC5;
+  padding: 0 10px;
+  line-height: 1;
+  vertical-align: text-top;
+}
+.speaker-details .info .affiliations {
+  margin-top: 5px;
+}
+@media (max-width: 1000px) {
+  .speaker-details .info h3,
+.speaker-details .info .metas,
+.speaker-details .info .affiliations {
+    text-align: center;
+  }
+}
+.speaker-details .info .speaker-content {
+  margin-top: 40px;
+}
+.speakers .speaker-details .info .speaker-content {
+  margin-top: 35px;
+}
+.speaker-details .info .readmore {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.speakers {
+  padding-bottom: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */

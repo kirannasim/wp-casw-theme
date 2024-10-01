@@ -1,0 +1,140 @@
+{
+    "key": "group_5f7f3dce68c00",
+    "title": "Landing Hero",
+    "fields": [
+        {
+            "key": "field_5f7f35b9407b5",
+            "label": "Hero Image",
+            "name": "hero_image",
+            "type": "image",
+            "instructions": "The subject should be on the right side of the image. The left side should have mostly empty space with little to no contrasting detail so that it does not conflict with the white text overlay.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium_large",
+            "library": "all",
+            "min_width": 1500,
+            "min_height": 880,
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "jpg, jpeg"
+        },
+        {
+            "key": "field_5f84caf23cce7",
+            "label": "Main Color",
+            "name": "main_color",
+            "type": "color_picker",
+            "instructions": "This should match the dominant color on the left side of the hero image. It is used on the mobile layout behind the intro text.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#000",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5f7f37b2407b6",
+            "label": "Intro Text",
+            "name": "intro_text",
+            "type": "text",
+            "instructions": "Introduce the section in one to two short sentences.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": 230
+        },
+        {
+            "key": "field_5f7f4aacebdc7",
+            "label": "Button Link",
+            "name": "button_link",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6024294447b1a",
+            "label": "Button Text",
+            "name": "button_text",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Learn More",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": 20
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "templates\/template-landing-thumbs.php"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "templates\/template-landing-list.php"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "templates\/template-events.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content",
+        "featured_image"
+    ],
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1651612622
+}

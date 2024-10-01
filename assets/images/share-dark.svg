@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="26px" viewBox="0 0 24 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Share</title>
+    <desc>Created with Sketch.</desc>
+    <g id="News" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1195.000000, -198.000000)" id="Share" stroke="#000000">
+            <g transform="translate(1193.000000, 198.000000)">
+                <g id="Group-14" transform="translate(2.000000, 0.000000)">
+                    <circle id="Oval" stroke-width="2" fill-rule="nonzero" cx="5" cy="13" r="4"></circle>
+                    <circle id="Oval" stroke-width="2" fill-rule="nonzero" cx="19" cy="5" r="4"></circle>
+                    <circle id="Oval" stroke-width="2" fill-rule="nonzero" cx="19" cy="21" r="4"></circle>
+                    <line x1="9.5" y1="10.5" x2="14.5" y2="7.5" id="Line-2" stroke-width="2" stroke-linecap="square" fill-rule="nonzero"></line>
+                    <line x1="9.5" y1="18.5" x2="14.5" y2="15.5" id="Line-2" stroke-width="2" stroke-linecap="square" fill-rule="nonzero" transform="translate(12.000000, 17.000000) scale(1, -1) translate(-12.000000, -17.000000) "></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

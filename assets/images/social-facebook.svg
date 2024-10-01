@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="29px" viewBox="0 0 16 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Group 12</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.0771358025 29 0.0771358025 0 15.9407407 0 15.9407407 29"></polygon>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Website" transform="translate(-643.000000, -2001.000000)">
+            <g id="Group-12" transform="translate(643.000000, 2001.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-11"></g>
+                <path d="M11.228721,5.26142857 L15.9289679,5.26246429 L15.9408198,0 L11.4361284,0 C7.7106963,0 5.09933827,3.25628571 5.09933827,7.25310714 L5.0381037,10.3561071 L0.114646914,10.3509286 L0.0771160494,15.5781786 L5.00057284,15.5823214 L5.00057284,29 L10.0148938,28.9948214 L10.0148938,15.5771429 L15.8420543,15.5781786 L15.8795852,10.3509286 L10.0524247,10.3498929 L10.1136593,7.19510714 C10.1136593,6.23810714 10.697363,5.26142857 11.228721,5.26142857" id="Fill-10" fill="#000000" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

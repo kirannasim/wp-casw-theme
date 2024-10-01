@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="37px" viewBox="0 0 33 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Group 14</title>
+    <desc>Created with Sketch.</desc>
+    <g id="People" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1200.000000, -191.000000)" fill-rule="nonzero" id="Group-14" stroke="#818181" stroke-width="2">
+            <g transform="translate(1200.000000, 191.000000)">
+                <circle id="Oval" cx="6.5" cy="18.5" r="5.5"></circle>
+                <circle id="Oval" cx="26.5" cy="6.5" r="5.5"></circle>
+                <circle id="Oval" cx="26.5" cy="30.5" r="5.5"></circle>
+                <line x1="11" y1="15" x2="21" y2="10" id="Line-2" stroke-linecap="square"></line>
+                <line x1="11" y1="28" x2="21" y2="22" id="Line-2" stroke-linecap="square" transform="translate(16.000000, 25.000000) scale(1, -1) translate(-16.000000, -25.000000) "></line>
+            </g>
+        </g>
+    </g>
+</svg>
